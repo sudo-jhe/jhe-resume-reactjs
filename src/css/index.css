@@ -1,0 +1,273 @@
+
+
+/*TODO style with react*/
+
+
+body {
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+  background-color: #EDF2F4;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+p, h1, h2, h3, h4 {
+  margin: unset;
+}
+
+h1, h2 {
+  letter-spacing: 4px;
+}
+
+h1 {
+  font-size: calc(1.4em + 1vmin);
+}
+
+h3 {
+  font-size: calc(0.65em + 1vmin);
+}
+
+h4 {
+  font-size: calc(0.6em + 1vmin);
+}
+
+h2 {
+  font-weight: 300;
+  font-size: calc(1em + 1vmin);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #E63946;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding-top: 0 !important;
+}
+
+ul.MuiTimeline-root.MuiTimeline-alignLeft {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h2, .header, .footer {
+  background-color: #1D3557;
+  color: #F1FAEE;
+}
+
+.general, .workExperience, .educationalPaths, .practicalExperience, .technologies, .software, .languages, .about {
+  margin: 10px;
+}
+
+.skillsGrid {
+  font-size: calc(0.4em + 1vmin);
+}
+
+.about {
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.aboutItems {
+  padding-bottom: 5px;
+}
+
+.aboutItems li {
+  list-style-type: none;
+  margin-left: -1.5rem;
+}
+
+.aboutItems ul {
+  margin: 0;
+}
+
+.hobbieItems {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+.skillItem {
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.skillItem .MuiRating-decimal {
+  font-size: 1.3rem !important;
+}
+
+.technologies, .software, .languages, .hobbies, .about {
+  max-width: 16rem;
+}
+
+.timelineGrid {
+  max-width: 55rem;
+}
+
+.roundedImg {
+  border-radius: 50%;
+}
+
+.header {
+  padding: 0.5rem 1rem;
+
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.61);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.61);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.61);
+}
+
+.footer, .headerInfo {
+  font-size: calc(0.35em + 1vmin);
+  font-weight: 400;
+}
+
+.footer {
+  flex: none;
+  padding: 0.3rem 0;
+  text-align: center;
+
+  -webkit-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.61);
+  -moz-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.61);
+  box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.61);
+}
+
+.headerInfo {
+  max-width: 34rem;
+}
+
+.footer .MuiButton-root {
+  color: inherit;
+}
+
+.footer p {
+  font-size: calc(0.2em + 1vmin);
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.divider {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  max-width: 25rem;
+  background-color: #F1FAEE !important;
+  opacity: 0.6;
+}
+
+.headerNameTitle {
+  margin-left: 15px !important;
+}
+
+.headerNameTitle h4 {
+  opacity: 0.6;
+  font-weight: 100;
+}
+
+.start-xs.header > div.col-xs-10 {
+  align-self: center;
+}
+
+.profilePicture2 {
+  padding: 5px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+.MuiCardContent-root {
+  padding: 0 !important;
+}
+.TextInfoContent-overline-3 {
+  color: #E63946 !important;
+}
+
+.MuiChip-sizeSmall {
+  margin: 5px 5px 0 0;
+}
+
+.MuiTypography-colorTextPrimary {
+  font-size: calc(0.35em + 1vmin) !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  font-size: calc(0.3em + 1vmin) !important;
+}
+
+.tlContent {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.contentTitle {
+  font-size: calc(0.15em + 1vmin);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #E63946 !important;
+  margin: 0;
+}
+
+.contentSubtitle  {
+  font-weight: bold;
+  line-height: 2;
+  margin: 0;
+}
+
+.contentBulletpoints {
+  font-size: calc(0.4em + 1vmin) !important;
+}
+
+.MuiChip-labelSmall {
+  font-size: calc(0.3em + 1vmin) !important;
+}
+
+.MuiButton-textSizeSmall {
+  font-size: calc(0.2em + 1vmin) !important;
+}
+
+.contentBulletpoints {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.contentChips {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contentCertButtons {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contentLinkButtons {
+  text-align: right;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 1175px) {
+  .skillsGrid .MuiGrid-direction-xs-column {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .skillsGrid .MuiGrid-direction-xs-column {
+    flex-direction: row;
+  }
+}

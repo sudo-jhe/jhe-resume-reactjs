@@ -17,7 +17,7 @@ const Footer = (props) => (
         <Button startIcon={<img alt="xing" src={ic_xing}/>} size="small" color="inherit" target="_blank"
                 href={props.data.xing}/>
         <Button startIcon={<img alt="github" src={ic_github}/>} size="small" color="inherit" target="_blank"
-                href={"#"}/>
+                href={props.data.github}/>
         <p>Built with ReactJS & MaterialUI</p>
     </div>
 )
